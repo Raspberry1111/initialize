@@ -1,0 +1,13 @@
+[package]
+name = "initialize"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = ["unsafe"]
+
+unsafe = [] # Enables default implementations that use unsafe
+
+[dependencies]
